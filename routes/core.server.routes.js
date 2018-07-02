@@ -6,3 +6,5 @@ module.exports = function(app) {
 	app.route('/').get(core.index);
 	app.route('/about').get(core.about);
 };
+
+
